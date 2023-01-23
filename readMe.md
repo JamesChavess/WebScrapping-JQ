@@ -2,11 +2,11 @@
 
  ## I loved the challenge it was really fun it has been an honor and a privilage to write and present this code 
 
-### In this Repo has 2 initial files "scrapper" and "officialScrapper"
+### In this Repo you will find 2 initial files "scrapper.js", "officialScrapper.js" and a folder "BeyondTheDevTest.js" 
 
-### scrapper works for all purposes, its a 40+ live code file
+### scrapper.js works for all purposes, its a 40+ live code file that makes sure everything's running 
 
-### officialScrapper also should work just as well if jquery is already running in browser, it is an optimized 14 line file
+### officialScrapper is my V2 optomized to fit in other places neatly and works just as well as scrapper V1 (as long as jquery is already up and running) it is an optimized 14 line file
 
 
 I was envolving and getting to like jquery so alot of snippets were replaced by cleaner simplistic code that you see now
