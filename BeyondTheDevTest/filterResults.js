@@ -206,3 +206,60 @@ console.log(Object.keys(productData))
 //    $('#checkList').append('<button> Download JSON </button>')
 // };
 
+
+
+// replaced working code from other files
+
+
+// ASIN = $('#productDetails_db_sections').find($('.prodDetAttrValue'))[0].text(),
+// dateAvailable = $('#productDetails_db_sections').find($('.prodDetAttrValue'))[1].text()
+// aboutItems = $('#feature-bullets ul li').text()
+// technicalDetails = $('#productDetails_techSpec_section_1 tbody').text()
+// a = $('#productDetails_db_sections').text(),
+// reviewCount = $('#productDetails_db_sections').find($('span#acrCustomerReviewText'))[0].text()
+// reviewSpecs = $('td span.a-icon-alt')[0].text(),
+// rank1 = [...$('table#productDetails_detailBullets_sections1 tr'))[0],
+// adInfoTable = [...$('table#productDetails_detailBullets_sections1 tr')] 
+// adInfoTable.forEach(tr => {
+    //     tRow = tr.text()
+    //     keyValuePairs = tRow.split('\t')
+    //     additionalInformation[`${
+        //         keyValuePairs[0]
+        //     }`] = `${
+            //         keyValuePairs[1].split('\n').join(' ')
+            //     }`
+            // });
+            
+            // technicalDetailsTable = [...$('table#productDetails_techSpec_section_1 tr')] 
+            // technicalDetailsTable.forEach(tr => {
+                //     tRow = tr.text()
+                //     keyValuePairs = tRow.split('\t')
+                //     technicalDetails[`${
+                    //         keyValuePairs[0]
+                    //     }`] = `${
+                        //         keyValuePairs[1].split('\n').join(' ')
+                        //     }`
+                        // });
+                        
+    // productDetailsTable = [...$('table.a-normal tr')]
+    // productDetailsTable.forEach(tr => {
+        //     tRow = tr.text()
+        //     keyValuePairs = tRow.split('\t')
+        //     productDetails[`${
+            //         keyValuePairs[0]
+            //     }`] = `${
+                //         keyValuePairs[1].split('\n').join(' ')
+                //     }`
+                // });
+                
+                
+                // aboutItems = [...$('div#feature-bullets ul li')].map(bullet =>   bullet = bullet.text()) // about product array
+                // splitRow = ()=>{
+                //     keyValuePairs = tRow.split('\t')
+                //         obj[`${
+                //             keyValuePairs[0]
+                //         }`] = `${
+                //             keyValuePairs[1].split('\n').join(' ')
+                //         }`
+                // }
+
