@@ -1,12 +1,12 @@
 ![image](https://user-images.githubusercontent.com/58557672/213987478-448cb040-4e0e-4f05-a75b-3b64e4409f87.png) 
 
- ## I loved the challenge it was really fun this Code was a privilage and an honor to write and present this code 
+ ## I loved the challenge it was really fun it has been an honor and a privilage to write and present this code 
 
-In this Repo has 2 initial files "scrapper" and "officialScrapper"
+###In this Repo has 2 initial files "scrapper" and "officialScrapper"
 
-scrapper works for all purposes, its a 40+ live code file
+###scrapper works for all purposes, its a 40+ live code file
 
-officialScrapper also should work just as well if jquery is already running in browser, it is an optimized 14 line file
+### officialScrapper also should work just as well if jquery is already running in browser, it is an optimized 14 line file
 
 
 I was envolving and getting to like jquery so alot of snippets were replaced by cleaner simplistic code that you see now
@@ -18,7 +18,7 @@ the data that could be retreived straight forward was assigned directly to the j
 the arrays and object values were passed through a generic function to return the desired data types and names 
 solicited
 
-automatic download was implemented for convinience, dont think im sending you a virus when you run the code!!
+### automatic download was implemented for convinience, dont think im sending you a virus when you run the code!!
 
 ![image](https://user-images.githubusercontent.com/58557672/213987660-1bf16579-4841-4ee6-9332-6afbb10918a4.png)
 
