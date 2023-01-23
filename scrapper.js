@@ -11,10 +11,12 @@ productDetails = {}, // product details {}
 productName = $('#productTitle').text(), //title 
 status = $('#availability span').text(), //status
 color = $('.a-row .selection').text(), //color
-tableToJson = (table) => { // function to create additional info, technical details & product details 
-    let jsonObj = {};
-    let td = val.innerText.split('\t');
-    $.each([...table], (i,val) => jsonObj[`${td[0]}`] = `${td[1].split('\n').join(' ')}`);;
+
+tableToJson = (table,obj) => { // function to create additional info, technical details & product details 
+    $.each([...table], (i,val) => {
+        let td = val.innerText.split('\t');
+        obj[`${td[0]}`] = `${td[1].split('\n').join(' ')}`
+    });
 }
 tableToJson($('table#productDetails_detailBullets_sections1 tr'),additionalInformation) // additional info
 tableToJson($('table#productDetails_techSpec_section_1 tr'),technicalDetails) // technical details {}
@@ -30,10 +32,10 @@ let productData = { //JSON info assigned
     color : color,
     status : status
 }
-let downloadValidatedJson = ()=>{ // download JSON file 
+let downloadJson = ()=>{ // download JSON file 
     $('head').append('<a download="productData.json"></a>')
     $('a[download="productData.json"]').attr('href', window.URL.createObjectURL(new Blob([JSON.stringify(productData,null,3)],{type:'text'})))
     $('a[download="productData.json"]')[0].click()
      }
 
-downloadValidatedJson()
+downloadJson()
