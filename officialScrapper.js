@@ -1,4 +1,4 @@
-tableToJsonObj = (table) => {
+let tableToJsonObj = (table) => {
     let jsonObj = {};
     $.each([...table], (i,val) => jsonObj[`${val.innerText.split('\t')[0]}`] = `${val.innerText.split('\t')[1].split('\n').join(' ')}`);
     return jsonObj
@@ -13,3 +13,4 @@ productData = {
     technical_details : tableToJsonObj($('table#productDetails_techSpec_section_1 tr')),
     product_details: tableToJsonObj($('table.a-normal tr')) ,
 }
+console.log(productData)
