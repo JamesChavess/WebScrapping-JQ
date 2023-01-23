@@ -2,9 +2,9 @@
 
  ## I loved the challenge it was really fun it has been an honor and a privilage to write and present this code 
 
-###In this Repo has 2 initial files "scrapper" and "officialScrapper"
+### In this Repo has 2 initial files "scrapper" and "officialScrapper"
 
-###scrapper works for all purposes, its a 40+ live code file
+### scrapper works for all purposes, its a 40+ live code file
 
 ### officialScrapper also should work just as well if jquery is already running in browser, it is an optimized 14 line file
 
